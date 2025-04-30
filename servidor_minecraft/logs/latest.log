@@ -1,9 +1,9 @@
-[21:57:00] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[21:57:01] [main/WARN]: Mod resolution failed
-[21:57:01] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE mca 7.6.3+1.20.1 {depends fabric-api-base @ [>=0.1.0]}, ROOT_FORCELOAD_SINGLE mca 7.6.3+1.20.1]
-[21:57:01] [main/INFO]: Reason: [HARD_DEP mca 7.6.3+1.20.1 {depends fabric-api-base @ [>=0.1.0]}, HARD_DEP mca 7.6.3+1.20.1 {depends fabric-registry-sync-v0 @ [>=0.1.0]}, HARD_DEP mca 7.6.3+1.20.1 {depends architectury @ [>=7.0.66]}, HARD_DEP t_and_t 1.10.2 {depends fabric @ [*]}, HARD_DEP t_and_t 1.10.2 {depends cristellib @ [*]}]
-[21:57:01] [main/INFO]: Fix: add [add:fabric-api-base 0.1.0 ([[0.1.0,∞)]), add:fabric-registry-sync-v0 0.1.0 ([[0.1.0,∞)]), add:architectury 7.0.66 ([[7.0.66,∞)]), add:fabric 1 ([(-∞,∞)]), add:cristellib 1 ([(-∞,∞)])], remove [], replace []
-[21:57:01] [main/ERROR]: Incompatible mods found!
+[21:58:15] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[21:58:15] [main/WARN]: Mod resolution failed
+[21:58:15] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE mca 7.6.3+1.20.1 {depends fabric-api-base @ [>=0.1.0]}, ROOT_FORCELOAD_SINGLE mca 7.6.3+1.20.1]
+[21:58:15] [main/INFO]: Reason: [HARD_DEP mca 7.6.3+1.20.1 {depends fabric-api-base @ [>=0.1.0]}, HARD_DEP mca 7.6.3+1.20.1 {depends fabric-registry-sync-v0 @ [>=0.1.0]}, HARD_DEP mca 7.6.3+1.20.1 {depends architectury @ [>=7.0.66]}, HARD_DEP t_and_t 1.10.2 {depends fabric @ [*]}, HARD_DEP t_and_t 1.10.2 {depends cristellib @ [*]}]
+[21:58:15] [main/INFO]: Fix: add [add:fabric-api-base 0.1.0 ([[0.1.0,∞)]), add:fabric-registry-sync-v0 0.1.0 ([[0.1.0,∞)]), add:architectury 7.0.66 ([[7.0.66,∞)]), add:fabric 1 ([(-∞,∞)]), add:cristellib 1 ([(-∞,∞)])], remove [], replace []
+[21:58:15] [main/ERROR]: Incompatible mods found!
 net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
 A potential solution has been determined, this may resolve your problem:
 	 - Install fabric-api-base, version 0.1.0 or later.
